@@ -11,7 +11,7 @@ public class Administrador {
     public Administrador()
     {
         user = "Ismael";
-        pass = "123";
+        pass = "123456";
     }
 
     public Administrador(int id, String user, String pass) {
