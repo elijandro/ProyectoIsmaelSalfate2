@@ -44,7 +44,7 @@ public class Trajes_act extends AppCompatActivity {
         {
             if(opcion.equals(tra.getTrajes()[i]))
             {
-                resultado = tra.anadirAdicional(tra.getPrecios()[i], 200);
+                resultado = tra.anadirAdicional(tra.getPrecios()[i], 500);
                 calificar.setRating(i+1);
                 break;
             }
